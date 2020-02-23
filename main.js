@@ -53,7 +53,7 @@ var AmazonSES = (function() {
   };
 
   var call = function(opts) {
-    var host = 'email.us-east-1.amazonaws.com';
+    var host = 'email.eu-west-1.amazonaws.com';
     var path = '/';
 
     var now = (new Date()).toUTCString();
